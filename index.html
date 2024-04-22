@@ -10,17 +10,17 @@
     /* CSS styles for various elements */
 
     ul {
-      background-color: rgb(255, 255, 255);
       text-align: center;
+      
     }
     li {
       color: rgb(0, 0, 0);
       display: inline-block;
-      padding-left: 350px;
+      padding-left: 370px;
     }
     .header .fa-bars {
       font-size: 18px;
-      left: 150px;
+      margin-left: -450px;
     }
 
     div.container {
@@ -33,8 +33,8 @@
       flex-wrap: wrap;
     }
     div.content {
-      width: calc(25% - 40px); /* 25% of the container width with margin */
-      margin: 20px;
+      width: 250px;
+      padding: 20px;
     }
     img.top {
       width: 100%;
@@ -66,6 +66,15 @@
     }
     div.header{
         position: relative;
+    }
+    ul.num{
+       display: inline;
+       margin-left: 625px;
+    }
+    ul.num li{
+       padding: 5px;
+       display: inline;
+
     }
   </style>
 </head>
@@ -152,7 +161,7 @@
   </div>
   
   <!-- Pagination -->
-  <ul>
+  <ul class="num">
     <li>&lt;&lt;</li>
     <li>1</li>
     <li>2</li>
